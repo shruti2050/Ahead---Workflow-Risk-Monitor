@@ -112,6 +112,9 @@ def main():
         "risk_label"
     ]].head(10))
 
+    print("\nRisk Distribution:")
+    print(df["risk_label"].value_counts())
+
 
 if __name__ == "__main__":
     main()
